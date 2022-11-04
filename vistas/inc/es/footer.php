@@ -4,7 +4,7 @@
 
             <div class="col-12">
                 <p class="text-justify lead" style="padding-bottom: 50px;">
-                Krencit Artesana Porque lo natural se siente... El código fuente tiene licencia MIT. El contenido del sitio web tiene licencia CC BY NC SA 4.0
+                    Recuerda que puedes apoyar este proyecto suscribiéndote a mis canales de YouTube <a href="https://www.youtube.com/channel/UCRMJ0vxtnHh_UAq1Yx9BYWQ?sub_confirmation=1" target="_blank">CARLOS ALFARO</a> & <a href="https://www.youtube.com/channel/UCSKQJ3n2_CNjgB3sb2fvTdQ?sub_confirmation=1" target="_blank">DESIGNLOPERS</a>, tu apoyo es muy importante para seguir desarrollando este software y para traer nuevos proyectos.
                 </p>
             </div>
 
@@ -59,19 +59,6 @@
                                 Twitter
                         </a>
                     </li>
-
-
-                    <?php 
-                        }
-                        if(WHATSAPP!=""){ 
-                    ?>
-                    <li>
-                        <a href="<?php echo WHATSAPP; ?>" class="footer-link" target="_blank" >
-                            <i class="fab fa-whatsapp fa-fw"></i>
-                                Whatsapp
-                        </a>
-                    </li>
-
                     <?php } ?>
                 </ul>
             </div>

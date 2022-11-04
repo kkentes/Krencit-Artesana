@@ -51,7 +51,42 @@
 
                     <p class="font-weight-bold text-uppercase" style="font-size: 22px;"><i class="far fa-credit-card fa-fw"></i> Precio: <span class="text-primary"><?php echo COIN_SYMBOL.number_format($total_price,COIN_DECIMALS,COIN_SEPARATOR_DECIMAL,COIN_SEPARATOR_THOUSAND).' '.COIN_NAME; ?></span></p>
                     
-                    
+                    <!-- Agregar al carrito -->
+                    <form action="" style="padding-top: 70px;">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="form-outline mb-4">
+                                        <input type="text" value="1" class="form-control text-center" id="product_cant" pattern="[0-9]{1,10}" maxlength="10" >
+                                        <label for="product_cant" class="form-label">Cantidad</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 text-center">
+                                    <button type="submit" class="btn btn-info"><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+    
+                    <!-- Actualizar el carrito -->
+                    <form action="" style="padding-top: 70px;">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="form-outline mb-4">
+                                        <input type="text" value="1" class="form-control text-center" id="product_cant" pattern="[0-9]{1,10}" maxlength="10" >
+                                        <label for="product_cant" class="form-label">Cantidad</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 text-center">
+                                    <button type="submit" class="btn btn-success"><i class="fas fa-sync fa-fw"></i> &nbsp; Actualizar carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
                 <?php
                     $datos_galeria=$ins_login->datos_tabla("Normal","imagen WHERE producto_id='".$campos['producto_id']."'","*",0);
 

@@ -1,12 +1,12 @@
 <header class="header full-box bg-white">
     <div class="header-brand full-box">
-    <a href="<?php echo SERVERURL; ?>index/">
-    <img src="<?php echo SERVERURL; ?>vistas/assets/img/logo1.png" alt="<?php echo COMPANY; ?>" class="img-fluid">
+        <a href="<?php echo SERVERURL; ?>index/">
+            <img src="<?php echo SERVERURL; ?>vistas/assets/img/logo.png" alt="<?php echo COMPANY; ?>" class="img-fluid">
         </a>
     </div>
 
     <div class="header-options full-box">
-        <nav class="header-navbar full-box poppins-regular  font-weight-bold scroll" onclick="show_menu_mobile()" >
+        <nav class="header-navbar full-box poppins-regular font-weight-bold scroll" onclick="show_menu_mobile()" >
             <ul class="list-unstyled full-box" >
                 <li>
                     <a href="<?php echo SERVERURL; ?>index/" >Inicio</a>
@@ -19,15 +19,16 @@
                 <li>
                     <a href="<?php echo SERVERURL; ?>registration/" >Regístrate</a>
                 </li>
-                
+                <li>
+                    <a href="<?php echo SERVERURL; ?>signin/" >Login</a>
+                </li>
                 <?php } ?>
             </ul>
         </nav>
-
-       
-
-       
-    
+        <a href="<?php echo SERVERURL; ?>bag/" class="header-button full-box text-center" title="Carrito" >
+            <i class="fas fa-shopping-bag"></i>
+            <span class="badge bg-primary rounded-pill bag-count" >2</span>
+        </a>
 
         <?php if(isset($_SESSION['cargo_sto']) && ($_SESSION['cargo_sto']=="Administrador" || $_SESSION['cargo_sto']=="Cajero")){ ?>
             <div class="header-button full-box text-center" id="userMenu" data-mdb-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="<?php echo $_SESSION['usuario_sto']; ?>" >

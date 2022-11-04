@@ -1,22 +1,14 @@
-# 🛒 STO (Sistema Tienda Online)
-Sistema de TIENDA en ONLINE desarrollada con tecnologías PHP, MVC, MySQL, JS, AJAX &amp; MDB 5
+# Krencit-Artesana
 
-# ⚠️ ¡IMPORTANTE! ⚠️
-<p>
-Este proyecto actualmente se encuentra en desarrollo aún no está finalizado, suscríbete a mi canal para estar pendiente de las nuevas actualizaciones
-</p>
+# Proyecto de cátedra
+Desarrollo de una aplicación de inventariado
 
-# ▶️ INSTALACIÓN
-<a href="https://youtu.be/NsvESL1lvpY" target="_blank">Ver video en YouTube</a>
+Prototipo
+# Integrantes 
+FV180290 - Rodrigo Enrique Flores Velásquez  
+PG180491 - Ebony Gabriela Peña Gómez   
+FM140272 - Kevin René Fuentes Molina  
+RM140115 - Josué Adalberto Rodríguez Madrid  
 
-# ⏱️ ACTUALIZACIONES DEL SISTEMA
-✔️ <a href="https://youtu.be/qULhGDd6Ll4" target="_blank">Ver actualizaciones Junio 2021</a>
-
-✔️ <a href="https://youtu.be/HsMLg56eKf0" target="_blank">Ver actualizaciones Abril 2021</a>
-
-✔️ <a href="https://youtu.be/ZWYsTkeXZEA" target="_blank">Ver actualizaciones Marzo 2021</a>  
-
-# 💙 APOYA ESTE PROYECTO 💙
-<p>
-Recuerda que puedes apoyar este proyecto suscribiéndote a mis canales de YouTube <a href="https://www.youtube.com/channel/UCRMJ0vxtnHh_UAq1Yx9BYWQ?sub_confirmation=1" target="_blank">CARLOS ALFARO</a> & <a href="https://www.youtube.com/channel/UCSKQJ3n2_CNjgB3sb2fvTdQ?sub_confirmation=1" target="_blank">DESIGNLOPERS</a>, tu apoyo es muy importante para seguir desarrollando este software y para traer nuevos proyectos.
-</p>
+# Licencia
+El proyecto esta respaldado bajo la Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional la cual limita a que el proyecto no puede ser usado para fines comerciales, ni ninguno de los proyectos derivados del mismo. Ademas, obliga a que todo proyecto derivado debe implementar la misma licencia que el proyecto original.

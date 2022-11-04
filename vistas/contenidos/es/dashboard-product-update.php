@@ -51,7 +51,7 @@
                         <div class="col-12 col-md-6">
                             <div class="form-outline mb-4">
                                 <input type="text" pattern="[a-zA-Z0-9- ]{1,49}" class="form-control" name="producto_sku_up" value="<?php echo $campos['producto_sku']; ?>" id="producto_sku" maxlength="49">
-                                <label for="producto_sku" class="form-label">SKU</label>
+                                <label for="producto_sku" class="form-label">SKU (Opcional)</label>
                             </div>
                         </div>
                     </div>
@@ -100,13 +100,13 @@
                         <div class="col-12 col-md-6">
                             <div class="form-outline mb-4">
                                 <input type="text" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ().,#\- ]{1,30}" class="form-control" name="producto_marca_up" value="<?php echo $campos['producto_marca']; ?>" id="producto_marca" maxlength="30">
-                                <label for="producto_marca" class="form-label">Fabricante</label>
+                                <label for="producto_marca" class="form-label">Fabricante (Nombre de quien lo hiso)</label>
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="form-outline mb-4">
                                 <input type="text" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ().,#\- ]{1,40}" class="form-control" name="producto_modelo_up" value="<?php echo $campos['producto_modelo']; ?>" id="producto_modelo" maxlength="40">
-                                <label for="producto_modelo" class="form-label">Modelo</label>
+                                <label for="producto_modelo" class="form-label">Temporada del producto</label>
                             </div>
                         </div>
                     </div>
@@ -121,7 +121,7 @@
                                 <label for="producto_tipo" class="form-label">Tipo de producto</label>
                                 <select class="form-control" name="producto_tipo_up" id="producto_tipo">
                                     <?php
-                                        $array_tipo=["Fisico","Digital"];
+                                        $array_tipo=["Natural"];
                                         echo $ins_login->generar_select($array_tipo,$campos['producto_tipo']);
                                     ?>
                                 </select>
