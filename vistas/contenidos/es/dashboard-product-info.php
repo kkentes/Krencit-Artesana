@@ -48,7 +48,7 @@
                     <div class="col-12 col-md-6">
                         <div class="form-outline mb-4">
                             <input type="text" class="form-control" value="<?php echo $campos['producto_sku']; ?>" id="producto_sku" readonly >
-                            <label for="producto_sku" class="form-label">SKU (Opcional)</label>
+                            <label for="producto_sku" class="form-label">SKU</label>
                         </div>
                     </div>
                 </div>
@@ -103,13 +103,13 @@
                     <div class="col-12 col-md-6">
                         <div class="form-outline mb-4">
                             <input type="text" class="form-control" value="<?php echo $campos['producto_marca']; ?>" id="producto_marca" readonly >
-                            <label for="producto_marca" class="form-label">Fabricante (Nombre de quien lo hiso)</label>
+                            <label for="producto_marca" class="form-label">Fabricante</label>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="form-outline mb-4">
                             <input type="text" class="form-control" value="<?php echo $campos['producto_modelo']; ?>" id="producto_modelo" readonly >
-                            <label for="producto_modelo" class="form-label">Temporada del producto</label>
+                            <label for="producto_modelo" class="form-label">Modelo</label>
                         </div>
                     </div>
                 </div>

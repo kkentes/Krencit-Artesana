@@ -473,21 +473,25 @@ a:hover{
 	margin: 0;
 }
 .header{
+	
 	border-bottom: 1px solid rgba(0, 0, 0, .1);
 	position: relative;
 	color: var(--text-color);
 	display: flex;
 }
 .header-brand{
+	background-color: pink;
 	width: 25%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 .header-brand img{
+	
 	max-width: calc(var(--header-height) - 8px);
 }
 .header-options{
+	background-color: pink;
 	width: 75%;
 	padding-right: 25px;
 	display: flex;
@@ -495,6 +499,7 @@ a:hover{
 	justify-content: flex-end;
 }
 .header-navbar{
+	background-color: pink;
 	width: auto;
 	padding-top: 0;
 	margin-top: 0;
@@ -502,6 +507,7 @@ a:hover{
 .header-navbar ul,
 .header-navbar ul li,
 .header-navbar ul li a{
+	
 	width: auto;
 	padding-top: 0;
 	margin-top: 0;
@@ -515,8 +521,10 @@ a:hover{
 	line-height: var(--header-height);
 	transition: all .2s ease-in-out;
 	position: relative;
+	
 }
 .header-button > i{
+	
 	cursor: pointer;
 	width: 100%;
 }
@@ -581,7 +589,7 @@ a:hover{
 	height: calc(100vh - var(--header-height));	
 	position: relative;
 	background-position: center;
-	background-image: url('../assets/img/banner_1.jpg');
+	background-image: url('../assets/img/producto/Aceite_de_Coco_37.jpg');
 	background-size: cover;
 	animation: banner 15s infinite linear;
 }
@@ -599,32 +607,33 @@ a:hover{
 }
 @keyframes banner{
 	0%{
-		background-image: url('../assets/img/banner_1.jpg');
+		background-image: url('../assets/img/producto/Cera_5.jpg');
 	}
 	33%{
-		background-image: url('../assets/img/banner_1.jpg');
+		background-image: url('../assets/img/producto/Cera_5.jpg');
 	}
 
 
 	34%{
-		background-image: url('../assets/img/banner_2.jpg');
+		background-image: url('../assets/img/producto/Jabon_natural_61.jpg');
 	}
 	66%{
-		background-image: url('../assets/img/banner_2.jpg');
+		background-image: url('../assets/img/producto/Jabon_natural_61.jpg');
 	}
 
 
 	67%{
-		background-image: url('../assets/img/banner_3.jpg');
+		background-image: url('../assets/img/producto/Jabon_Aceite_Rosa_Mosqueta_y_Maizena_91.jpg');
 	}
 	100%{
-		background-image: url('../assets/img/banner_3.jpg');
+		background-image: url('../assets/img/producto/Jabon_Aceite_Rosa_Mosqueta_y_Maizena_91.jpg');
 	}
 
 }
 
 /* Footer */
 .footer{
+	
 	border-top: 1px solid #E1E1E1;
 	padding: 70px 0 40px 0;
 	font-family: 'poppinsregular', sans-serif;
@@ -633,6 +642,7 @@ a:hover{
 .footer-link{
 	text-decoration: none !important;
 	color: var(--accent-color);
+	
 } 
 
 /* estilos de contenedores web */
@@ -643,12 +653,14 @@ a:hover{
 
 /* estilos cards personalizados */
 .container-cards{
+	background-color: lightskyblue;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 .card-product{
+	
 	width: 300px;
 	height: auto;
 	margin: 15px;

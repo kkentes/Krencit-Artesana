@@ -41,7 +41,6 @@
 
         $total_productos=$ins_login->datos_tabla("Normal","producto","producto_id",0);
     ?>
-
     <a href="<?php echo SERVERURL.DASHBOARD; ?>/product-list/" class="tile">
         <div class="tile-tittle">Productos</div>
         <div class="tile-icon">
@@ -56,7 +55,6 @@
         if($_SESSION['cargo_sto']=="Administrador"){
             $total_usuarios=$ins_login->datos_tabla("Normal","usuario WHERE usuario_id!='1' AND usuario_id!='".$_SESSION['id_sto']."'","usuario_id",0);
     ?>
-
     <a href="<?php echo SERVERURL.DASHBOARD; ?>/admin-list/" class="tile">
         <div class="tile-tittle">Administradores</div>
         <div class="tile-icon">

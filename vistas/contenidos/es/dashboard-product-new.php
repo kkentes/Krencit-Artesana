@@ -40,7 +40,7 @@
                     <div class="col-12 col-md-6">
                         <div class="form-outline mb-4">
                             <input type="text" pattern="[a-zA-Z0-9- ]{1,49}" class="form-control" name="producto_sku_reg" id="producto_sku" maxlength="49">
-                            <label for="producto_sku" class="form-label">SKU (Opcional)</label>
+                            <label for="producto_sku" class="form-label">SKU</label>
                         </div>
                     </div>
                 </div>
@@ -89,13 +89,13 @@
                     <div class="col-12 col-md-6">
                         <div class="form-outline mb-4">
                             <input type="text" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ().,#\- ]{1,30}" class="form-control" name="producto_marca_reg" id="producto_marca" maxlength="30">
-                            <label for="producto_marca" class="form-label">Fabricante (Nombre de quien lo hiso)</label>
+                            <label for="producto_marca" class="form-label">Fabricante</label>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="form-outline mb-4">
                             <input type="text" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ().,#\- ]{1,40}" class="form-control" name="producto_modelo_reg" id="producto_modelo" maxlength="40">
-                            <label for="producto_modelo" class="form-label">Temporada del producto</label>
+                            <label for="producto_modelo" class="form-label">Modelo</label>
                         </div>
                     </div>
                 </div>
@@ -110,7 +110,8 @@
                             <label for="producto_tipo" class="form-label">Tipo de producto</label>
                             <select class="form-control" name="producto_tipo_reg" id="producto_tipo">
                                 <option value="" selected="" >** Tipo de producto **</option>
-                                <option value="Natural" >Natural</option>
+                                <option value="Fisico" >Fisico</option>
+                                <option value="Digital" >Digital</option>
                             </select>
                         </div>
                     </div>

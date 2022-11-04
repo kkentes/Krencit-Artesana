@@ -3,13 +3,13 @@
 	/*----------  
 	Ruta o dominio del servidor  - Server path or domain
 	----------*/
-	const SERVERURL="http://localhost/Krencit Artesana/";
+	const SERVERURL="http://localhost/proyecto krensit artesana 1.1/";
 
 
 	/*----------  
 	Nombre de la empresa o compañia -  Company or company name
 	----------*/
-	const COMPANY="Krencit Artesana";
+	const COMPANY="Krensit Artesana";
 
 
 	/*----------  Idioma - Language
@@ -35,10 +35,10 @@
 
 	/*----------  Redes sociales - Social networks  ----------*/
 	const FACEBOOK="https://www.facebook.com/KrencitArtesana/";
-	const INSTAGRAM="https://www.instagram.com/krencitartesana/";
+	const INSTAGRAM="https://www.instagram.com/KrencitArtesana/?hs=es";
 	const YOUTUBE="";
 	const TWITTER="";
-
+	const WHATSAPP="https://api.whatsapp.com/send?phone=50378566065&app=facebook&entry_point=page_cta";
 
 	/*----------  Direccion - Address  ----------*/
 	const COUNTRY="El Salvador";

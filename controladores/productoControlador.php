@@ -199,7 +199,7 @@
             }
 
             /*-- Comprobando tipo - Checking type --*/
-			if($tipo!="Natural"){
+			if($tipo!="Fisico" && $tipo!="Digital"){
 				$alerta=[
 					"Alerta"=>"simple",
 					"Titulo"=>"Opción no valida",
@@ -1764,11 +1764,7 @@
             }
 
             /*-- Comprobando tipo - Checking type --*/
-
-
-
-            /*-- --*/
-			if($tipo!="Natural" ){
+			if($tipo!="Fisico" && $tipo!="Digital"){
 				$alerta=[
 					"Alerta"=>"simple",
 					"Titulo"=>"Opción no valida",
