@@ -39,7 +39,7 @@ Este emprendimiento se dedica principalmente a la elaboración artesanal de prod
     <div class="row justify-content-md-center">
         <div class="col-12 col-md-6">
             <figure class="full-box">
-                <img src="<?php echo SERVERURL; ?>vistas/assets/img1/registration.png" alt="registration_<?php echo COMPANY; ?>" class="img-fluid">
+                <img src="<?php echo SERVERURL; ?>vistas/assets/img/registration.png" alt="registration_<?php echo COMPANY; ?>" class="img-fluid">
             </figure>
         </div>
         <div class="w-100"></div>
